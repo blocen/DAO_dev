@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Wrapper.sol";
 
-contract CarbinoCapital is ERC20, ERC20Permin, ERC20Votes, ERC20Wrapper {
+contract CarbinoCapital is ERC20, ERC20Permit, ERC20Votes, ERC20Wrapper {
     uint256 public maxSupply = 1000 * 10 ** 18;
 
     constructor(IERC20 wrappedToken)

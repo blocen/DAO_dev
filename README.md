@@ -1,9 +1,8 @@
 # DAO_dev
+
 BDU DAO course
 
-
 https://github.com/BlockDevsUnited/DAO-COURSE
-
 
 ### --- week 2
 
@@ -14,3 +13,6 @@ settings
 
 make voting going
 
+### --- week 3
+
+proposals on BDU DAO
